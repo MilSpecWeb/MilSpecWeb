@@ -1,0 +1,60 @@
+var STRING = {
+    FILE_LOCATION: [
+        {LOCATION: "/Home/Index.jsp"},
+        {LOCATION: "/About/Index.jsp"},
+        {LOCATION: "/Tutorial/Index.jsp"},
+        {LOCATION: "/LogIn/Index.jsp"},
+        {LOCATION: "/Register/Index.jsp"},
+        {LOCATION: "/Contact/Index.jsp"}
+    ],
+    NAV_BUTTON_LABELS: [
+        {LABEL: "Home"},
+        {LABEL: "About"},
+        {LABEL: "Tutorial"},
+        {LABEL: "Log In"},
+        {LABEL: "Register"},
+        {LABEL: "Contact"}
+    ],
+    TITLE: [{TILENAME: "MSWB"}],
+    WEB_CONTENT_HOME: [
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+    ],
+    WEB_CONTENT_HOME_TITLE: [{TITLE: "Section 1"}],
+    WEB_CONTENT_ABOUT: [
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+    ],
+    WEB_CONTENT_CONTACT: [
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+    ],
+    WEB_CONTENT_REGISTER: [
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+        {CONTENT: ""},
+    ]
+};

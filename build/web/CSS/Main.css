@@ -1,0 +1,118 @@
+/*
+=============================================================================================================================================================================================================
+           Author: William Kirkgaard
+           Date: 7/2/2016
+=============================================================================================================================================================================================================
+*/
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  letter-spacing: .15em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.Page{
+    width: auto;
+    height: auto;
+}
+.Page .Main-Menu{
+  position: fixed;
+  width:100%;
+  height:auto;
+  background:black;
+}
+.Page .Main-Menu{
+  float: right;
+}
+.Page .Main-Menu .Main-Select ul li{
+  float:left;
+  margin: auto;
+  position: relative;
+  right:50%;
+  left: 50%;
+}
+
+.Page .Main-Menu .Main-Select ul li button{
+  background: rgb(0,0,0);
+  border: transparent 1px solid;
+  color:rgb(255,255,255);
+  font-weight: bold;
+  font-size: 1em;
+  padding: 5px;
+  transition-delay: .75s;
+}
+
+.Page .Main-Menu .Main-Select ul li button:hover{
+  border-bottom: white solid 2px;
+  transition-delay: .75s;
+}
+.Page .Main-Menu .Main-Title{
+  float:left;
+  color:white;
+  padding: 5px;
+  font-weight: bold;
+  font-size:1.25em;
+}
+.Page .Header {
+  color:white;
+}
+.Page .Header .Header-Title{
+  font-weight: bold;
+  font-size: 2em;
+  padding: 200px;
+  
+}
+.Page .Header .Header-Menu{
+  /* padding-left: 37%; */
+  /* margin-left: 30%; */
+    padding-left: 37%;
+}
+.Page .Header .Header-Menu ul {
+  float: left;
+ list-style: none; 
+}
+.Page .Header .Header-Menu ul li {
+  float:left;
+}
+.Page .Header .Header-Menu ul li button{
+ 
+  background: transparent;
+  color: white;
+  border:1px solid rgb(255,255,255);
+  height: 40px;
+  width:100px;
+  margin: 10%;
+}
+.Page .Section .Section-Title{
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 150px;
+}
+.Page .Section .Section-Body canvas{
+    height:100%;
+    width:100%;
+}
+.Side{
+  position: fixed;
+  top:0px;
+  height: 100%;
+  width:500px;
+  background: black;
+}
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*
+ * See the Getting Started docs for more information:
+ * http://getbootstrap.com/getting-started/#support-ie10-width
+ */
+@-webkit-viewport { width: device-width; }
+@-moz-viewport    { width: device-width; }
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
