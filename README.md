@@ -5,5 +5,5 @@
 #.3 JavaScript/JQuery
 #.4 CSS
 #.5 Bootstrap
-<addr>http://www.milspecweb.com
+<addr>http://www.milspecweb.com</addr>
 https://github.com/wkirkgaard/MilSpecWeb.git
