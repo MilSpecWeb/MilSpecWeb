@@ -6,3 +6,4 @@
 #.4 CSS
 #.5 Bootstrap
 <addr>http://www.milspecweb.com
+https://github.com/wkirkgaard/MilSpecWeb.git
